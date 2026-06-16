@@ -61,4 +61,3 @@ time.sleep(2)
 
 menu_principal()
 
-fdafwadvdaw
