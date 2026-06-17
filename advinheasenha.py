@@ -10,7 +10,7 @@ Requisito:
 """
 
 from pathlib import Path
-import hashlib
+import random
 import time
 
 import pandas as pd
@@ -85,15 +85,8 @@ def mostrar_bloco(linhas: list[str], inicio: str, fim: str | None = None) -> Non
     print()
 
 
-def gerar_codigo_inteligente(texto_base: str, fase: int) -> int:
-    """
-    Gera um código secreto entre 0 e 100 usando hash SHA-256.
-    Isso deixa o código pseudoaleatório, mas baseado no texto da história.
-    """
-    semente = f"{texto_base}|FASE-{fase}|AGENTE-062"
-    hash_codigo = hashlib.sha256(semente.encode("utf-8")).hexdigest()
-    numero_grande = int(hash_codigo, 16)
-    return numero_grande % 101
+def gerar_codigo_inteligente(fase: int) -> int:
+    return random.randint(VALOR_MINIMO, VALOR_MAXIMO)
 
 
 def analisar_temperatura(palpite: int, codigo: int) -> str:
@@ -249,9 +242,9 @@ def main() -> None:
     input("Pressione ENTER para iniciar a missão...")
 
     codigos = {
-        1: gerar_codigo_inteligente(texto_completo, 1),
-        2: gerar_codigo_inteligente(texto_completo, 2),
-        3: gerar_codigo_inteligente(texto_completo, 3),
+        1: gerar_codigo_inteligente(1),
+        2: gerar_codigo_inteligente(2),
+        3: gerar_codigo_inteligente(3),
     }
 
     fases = [
