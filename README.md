@@ -117,5 +117,5 @@ Este projeto está sob a licença [MIT](LICENSE).
 ---
 
 <p align="center">
-  Desenvolvido como atividade final de Gameficação — CEUB 2026
+  Desenvolvido como atividade final de Lógica de Programação — CEUB 2026
 </p>
