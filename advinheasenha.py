@@ -258,7 +258,7 @@ def main() -> None:
         {
             "numero": 1,
             "titulo": "A Infiltração",
-            "tentativas": 8,
+            "tentativas": 10,
             "vitoria": "Acesso autorizado. O primeiro firewall foi desativado.",
             "derrota": "Tentativas excedidas. Alarmes são ativados. Missão fracassada.",
         },
@@ -272,7 +272,7 @@ def main() -> None:
         {
             "numero": 3,
             "titulo": "O Código Final",
-            "tentativas": 7,
+            "tentativas": 5,
             "vitoria": "PROTOCOLO FINAL CANCELADO. VOCÊ SALVOU A MISSÃO!",
             "derrota": "O sistema KRONVIA concluiu a operação. Missão fracassada.",
         },
