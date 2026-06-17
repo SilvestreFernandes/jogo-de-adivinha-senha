@@ -1,0 +1,17 @@
+### Ano 2048
+
+O sistema KRONVIA assumiu o controle de uma rede digital crítica.
+
+Você é o Agente 062, um especialista em inteligência artificial, criptografia e análise de sistemas.
+
+Sua missão é atravessar três camadas de segurança usando lógica, tentativa inteligente e busca binária.
+
+Cada fase possui um código secreto entre 0 e 100.
+
+A cada tentativa, o sistema informa se o código é maior ou menor, além de sinais de proximidade.
+
+Use as pistas para reduzir o intervalo possível até encontrar a senha correta.
+
+Se falhar, o sistema KRONVIA bloqueará o acesso principal da operação.
+
+Se vencer, você desativa o protocolo final e conclui a missão.
