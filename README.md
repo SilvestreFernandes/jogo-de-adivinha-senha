@@ -54,13 +54,41 @@ O coração da operação inimiga: um bunker sob a capital de Kronvia. O último
 - ✅ **Vitória:** *"PROTOCOLO NUCLEAR CANCELADO."* — **VOCÊ SALVOU O BRASIL!** 🇧🇷
 - ❌ **Derrota:** *"CONTAGEM REGRESSIVA CONCLUÍDA."* — **O BRASIL FOI DESTRUÍDO.**
 
+---
+
+## 🚀 Como Executar
+
+### Pré-requisitos
+- [Python 3.x](https://www.python.org/downloads/) instalado na máquina
+
+### Passo a passo
+
+```bash
+# 1. Clone o repositório
+git clone https://github.com/SilvestreFernandes/jogo-de-adivinha-senha.git
+
+# 2. Entre na pasta do projeto
+cd jogo-de-adivinha-senha
+
+# 3. Instale as dependências
+pip install -r requirements.txt
+
+# 4. Execute o jogo
+python advinheasenha.py
+```
+
+---
+
+
 ## 🕹️ Como Jogar
 
 1. Ao iniciar, você será apresentado à história e à **Fase 1**
 2. O sistema escolhe um código secreto (número)
 3. Você tem **tentativas limitadas** para adivinhar
 4. O jogo dá dicas a cada tentativa:
-   - *"Muito alto"* / *"Muito baixo"* para números
+   - Direção: *"O código é MAIOR"* / *"O código é MENOR"*
+   - Temperatura: *"fervendo"*, *"quente"*, *"morno"*, *"frio"*
+   - Pistas extras conforme as tentativas avançam
 5. Acertou? Avança para a próxima fase. Errou? A missão falha.
 
 ---
@@ -69,12 +97,12 @@ O coração da operação inimiga: um bunker sob a capital de Kronvia. O último
 
 ```
 jogo-de-adivinha-senha/
+
 │
-├── main.py           # Arquivo principal — inicia o jogo
-├── menu.py           # Menu de interação — interage com o usuário
-├── fase1.py          # Lógica da Fase 1 — A Infiltração
-├── fase2.py          # Lógica da Fase 2 — O Centro de Comando
-├── fase3.py          # Lógica da Fase 3 — O Código do Apocalipse
+├── advinheasenha.py  # Arquivo principal — lógica completa do jogo
+├── menu.py           # Menu de interação com o usuário
+├── message.txt       # História exibida durante o jogo
+├── requirements.txt  # Dependências do projeto
 ├── README.md         # Documentação do projeto
 └── LICENSE           # Licença MIT
 ```
@@ -86,7 +114,7 @@ jogo-de-adivinha-senha/
 | Integrante | Responsabilidade |
 |---|---|
 | [Silvestre Fernandes](https://github.com/SilvestreFernandes) | Organização do repositório e README |
-| [Diego Azevedo](https://github.com/diegoliminha) | Função ainda não definida |
+| [Diego Azevedo](https://github.com/diegoliminha) | Testes e documentação do código |
 | [Filipe Amancio](https://github.com/filipe-amancio) | Criação da história e integração dela na interface do usuário |
 | [Gabriel Duarte](https://github.com/gabriel-lab-ia) | Desenvolvimento dos algoritmos em Python |
 
@@ -99,7 +127,8 @@ jogo-de-adivinha-senha/
 - Laços de repetição (`while`)
 - Variáveis e strings
 - Modularização com funções
-
+- Algoritmos de busca binária
+- Funções de hash (SHA-256)
 ---
 
 ## 📜 Licença
