@@ -65,11 +65,10 @@ python main.py
 ## 🕹️ Como Jogar
 
 1. Ao iniciar, você será apresentado à história e à **Fase 1**
-2. O sistema escolhe um código secreto (número ou palavra)
+2. O sistema escolhe um código secreto (número)
 3. Você tem **tentativas limitadas** para adivinhar
 4. O jogo dá dicas a cada tentativa:
    - *"Muito alto"* / *"Muito baixo"* para números
-   - *"Quase lá"* / *"Tente novamente"* para palavras
 5. Acertou? Avança para a próxima fase. Errou? A missão falha.
 
 ---
