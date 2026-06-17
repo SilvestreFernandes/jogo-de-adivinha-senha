@@ -54,28 +54,6 @@ O coração da operação inimiga: um bunker sob a capital de Kronvia. O último
 - ✅ **Vitória:** *"PROTOCOLO NUCLEAR CANCELADO."* — **VOCÊ SALVOU O BRASIL!** 🇧🇷
 - ❌ **Derrota:** *"CONTAGEM REGRESSIVA CONCLUÍDA."* — **O BRASIL FOI DESTRUÍDO.**
 
----
-
-## 🚀 Como Executar
-
-### Pré-requisitos
-- [Python 3.x](https://www.python.org/downloads/) instalado na máquina
-
-### Passo a passo
-
-```bash
-# 1. Clone o repositório
-git clone https://github.com/SilvestreFernandes/jogo-de-adivinha-senha.git
-
-# 2. Entre na pasta do projeto
-cd jogo-de-adivinha-senha
-
-# 3. Execute o jogo
-python main.py
-```
-
----
-
 ## 🕹️ Como Jogar
 
 1. Ao iniciar, você será apresentado à história e à **Fase 1**
