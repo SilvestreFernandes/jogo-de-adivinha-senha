@@ -80,6 +80,7 @@ python main.py
 jogo-de-adivinha-senha/
 │
 ├── main.py           # Arquivo principal — inicia o jogo
+├── menu.py           # Menu de interação — interage com o usuário
 ├── fase1.py          # Lógica da Fase 1 — A Infiltração
 ├── fase2.py          # Lógica da Fase 2 — O Centro de Comando
 ├── fase3.py          # Lógica da Fase 3 — O Código do Apocalipse
