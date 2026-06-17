@@ -2,9 +2,23 @@
 
 > *"O Brasil está nas suas mãos. Três códigos. Sem segunda chance."*
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Em%20desenvolvimento-yellow)
-![License](https://img.shields.io/badge/License-MIT-green)
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="52" alt="Python" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="52" alt="Pandas" />
+  <img width="12" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="52" alt="Git" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="52" alt="GitHub" />
+</div>
+
+<br>
+
+<p align="center">
+  <strong>Status:</strong> Em desenvolvimento &nbsp; | &nbsp;
+  <strong>Licença:</strong> MIT
+</p>
 
 ---
 
