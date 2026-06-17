@@ -88,7 +88,7 @@ jogo-de-adivinha-senha/
 | [Silvestre Fernandes](https://github.com/SilvestreFernandes) | Organização do repositório e README |
 | [Diego Azevedo](https://github.com/diegoliminha) | Função ainda não definida |
 | [Filipe Amancio](https://github.com/filipe-amancio) | Criação da história e integração dela na interface do usuário |
-| [Gabriel Duarte](https://github.com/gabriel-lab-ia) | Desenvolvimento do algoritmo |
+| [Gabriel Duarte](https://github.com/gabriel-lab-ia) | Desenvolvimento dos algoritmos em Python |
 
 ---
 
