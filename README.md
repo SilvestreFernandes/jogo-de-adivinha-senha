@@ -94,9 +94,9 @@ jogo-de-adivinha-senha/
 | Integrante | Responsabilidade |
 |---|---|
 | [Silvestre Fernandes](https://github.com/SilvestreFernandes) | Organização do repositório e README |
-| [Membro 2] | — |
-| [Membro 3] | — |
-| [Membro 4] | — |
+| [Diego Azevedo](https://github.com/diegoliminha) | Função ainda não definida |
+| [Filipe Amancio](https://github.com/filipe-amancio) | Criação da história e integração dela na interface do usuário |
+| [Gabriel Duarte](https://github.com/gabriel-lab-ia) | Desenvolvendo o algoritmo |
 
 ---
 
@@ -117,5 +117,5 @@ Este projeto está sob a licença [MIT](LICENSE).
 ---
 
 <p align="center">
-  Desenvolvido como atividade final de Gameficação — CEUB 2025
+  Desenvolvido como atividade final de Gameficação — CEUB 2026
 </p>
