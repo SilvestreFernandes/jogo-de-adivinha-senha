@@ -16,7 +16,7 @@
 <br>
 
 <p align="center">
-  <strong>Status:</strong> Em desenvolvimento &nbsp; | &nbsp;
+  <strong>Status:</strong> Concluído &nbsp; | &nbsp;
   <strong>Licença:</strong> MIT
 </p>
 
