@@ -97,14 +97,14 @@ python advinheasenha.py
 
 ```
 jogo-de-adivinha-senha/
-
 │
-├── advinheasenha.py  # Arquivo principal — lógica completa do jogo
-├── menu.py           # Menu de interação com o usuário
-├── message.txt       # História exibida durante o jogo
-├── requirements.txt  # Dependências do projeto
-├── README.md         # Documentação do projeto
-└── LICENSE           # Licença MIT
+├── advinheasenha.py             # Arquivo principal — lógica completa do jogo
+├── menu.py                      # Menu de interação com o usuário
+├── message.txt                  # História exibida durante o jogo
+├── requirements.txt             # Dependências do projeto
+├── Relatorio_Teste_Adivinhacao.pdf  # Relatório de testes do jogo
+├── README.md                    # Documentação do projeto
+└── LICENSE                      # Licença MIT
 ```
 
 ---
@@ -128,7 +128,7 @@ jogo-de-adivinha-senha/
 - Variáveis e strings
 - Modularização com funções
 - Algoritmos de busca binária
-- Funções de hash (SHA-256)
+- Geração de números aleatórios (`random`)
 ---
 
 ## 📜 Licença
